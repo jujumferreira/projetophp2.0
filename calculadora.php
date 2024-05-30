@@ -7,7 +7,7 @@ function soma ($num,$num2){
   return ($num + $num2);
 }
 
-function subitracao ($num,$num2){
+function subtracao ($num,$num2){
   return ($num - $num2);
 
 }

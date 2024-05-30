@@ -11,10 +11,10 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 <form action="primeiro.php" method="post">
 	<label for="nome">Nome:</label>
-	<input type="text" name="name" maxlength="25" placeholder="insira seu nome" id="nome" autofocus required autocomplete="true"><br>
+	<input type="text" name="name" maxlength="25" placeholder="insira seu nome" id="nome" autofocus required autocomplete="on"><br>
 
 	<label for="email">Email:</label>
-	<input type="email" name="email" maxlength="25" placeholder="insira seu e-mail" id="email" required autocomplete="true"><br>
+	<input type="email" name="email" maxlength="25" placeholder="insira seu e-mail" id="email" required autocomplete="on"><br>
 
 	<label for="idade">Idade:</label>
 	<input type="number" name="idade" minlength="2" placeholder="insira sua idade" id="idade" required><br>
